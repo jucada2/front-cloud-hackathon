@@ -1,12 +1,45 @@
-# React + Vite
+# UTEC Diagram Editor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una herramienta web interactiva para la generación, edición y visualización de diagramas técnicos a partir de definiciones escritas como código. Utiliza **React** con **Vite** para un desarrollo rápido y eficiente.
 
-Currently, two official plugins are available:
+## Características Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Editor de Código:** Permite escribir código para definir diagramas.
+* **Resaltado de Sintaxis:** Mejora la legibilidad del código en el editor.
+* **Generación de Diagramas:** Envía el código al backend para generar y visualizar el diagrama.
+* **Interfaz de Usuario Responsiva:** Se adapta a diferentes tamaños de pantalla.
 
-## Expanding the ESLint configuration
+## Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React (con Vite)
+* **Editor de Código:** `react-simple-code-editor`
+* **Resaltado de Sintaxis:** `react-syntax-highlighter`
+* **Estilos:** CSS Modules
+
+## Configuración del Proyecto
+
+Para configurar y ejecutar este proyecto en tu máquina local, sigue los siguientes pasos:
+
+### 1. Clona el Repositorio
+
+Primero, clona el repositorio de GitHub a tu máquina:
+
+```bash
+git clone <URL_DE_TU_REPOSITORIO>
+cd front-end-cloud
+```
+
+### 2. Instala las Dependencias
+Una vez que estés dentro del directorio del proyecto, instala todas las dependencias necesarias. Se recomienda usar npm (Node Package Manager).
+
+```bash
+npm install
+```
+
+### 3. Ejecuta la Aplicación en Modo Desarrollo
+Para iniciar el servidor de desarrollo y ver la aplicación en tu navegador:
+```bash
+npm run dev
+```
+
+La aplicación se abrirá automáticamente en tu navegador en http://localhost:5173 (o un puerto similar). Si no lo hace, abre la URL manualmente.
